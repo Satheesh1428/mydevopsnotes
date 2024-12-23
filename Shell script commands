@@ -1,18 +1,19 @@
-Shell scripting:
-
 Man:
 Man is a command manual which give you purpose of command 
 For ex: man  ls  , it will give you details about ls 
-History:
-History will give 
+
 # is used for comment
+
 Listing folders/files:
+======================
 Ls –Listing  
 ls -A : it will show hidden files 
 ls -l :  listing with complete details
 ls -LA : listing with hidden files as well 
 ls -ltr : provides complete details like directory, files , owner , timestamp…etc 
+
 File concepts:
+=================
 touch <filename> : to create file name 
 vi / vim <file name> – file editors 
 vi/vim will create file and opens it .  touch only creates a file.  
@@ -24,8 +25,8 @@ cat – to print the content of the file on screen.
       head  <filename> : first 10 lines it will show
       tail     <filename> : last 10 lines it will show 
 
-How to find command options:  man ,   ex: man ls
 Memory:
+==========
 Nproc
 Free	
 Top
@@ -33,6 +34,7 @@ Df
 
 
 Processers:
+==============
 Ps -ef – to find processers which are running 
 Ps -ef | grep “ amzon”
 grep :  to find something
@@ -40,25 +42,19 @@ Pipe: it is used to send output to second command from first comman
 awk: column based filtering :    -F :  ‘ {print $1}’  <filename)
 
 Set commands:
+==============
 Set -x   # debug mode
 Set  - e  # exit the script when there is an error
 Set  -o  pipe fail   #  exit the script when pipe fail issues
+
 Permissions:
+============
 CHMOD : grant permissions for files/directories
-
-					
- 
-
-
-
-
-
-
-
 4:  for read,  3 : for write , 1 : for execute   permissions
 Chmod 777 <file name> -- it gives all permissions
 
 Directories
+============
 PWD: present working directory 
 mkdir  <directory name> : to create directory 
 cd :  change directory 
@@ -79,15 +75,13 @@ find  <loation-name> <search -criteria> : it is used to find the file
 sudo su -    : it will switch the user to root
 
 if statement:
+==============
   if [expression]
   then 
        statements
   else
        statements
   fi
-
-
-
 
 Integers can be compared with these operators:
 -eq # Equal
@@ -98,6 +92,7 @@ Integers can be compared with these operators:
 -ge # Greater than or equal
 
 For loop:
+==============
 
 for i in {2..10}
 
@@ -112,12 +107,6 @@ trap will trap the signals
 ex: trap “echo don’t use the ctrl+c” SIGINT
 
 
-Memory:
-
-Free 
-nproc 
-df – h 
-top
 
 
 
