@@ -1,0 +1,184 @@
+Shell scripting:
+
+Man:
+Man is a command manual which give you purpose of command 
+For ex: man  ls  , it will give you details about ls 
+History:
+History will give 
+# is used for comment
+Listing folders/files:
+Ls –Listing  
+ls -A : it will show hidden files 
+ls -l :  listing with complete details
+ls -LA : listing with hidden files as well 
+ls -ltr : provides complete details like directory, files , owner , timestamp…etc 
+File concepts:
+touch <filename> : to create file name 
+vi / vim <file name> – file editors 
+vi/vim will create file and opens it .  touch only creates a file.  
+rm /rm -f  <file name> : to remove file name 
+cp  < source file name>  <target file name> : to copy from one file to another file 
+mv < source file name>  <target file name> : it is used to rename/moving file 
+cat – to print the content of the file on screen. 
+    cat -n  <file name>  it will show the content of the file with line numbers
+      head  <filename> : first 10 lines it will show
+      tail     <filename> : last 10 lines it will show 
+
+How to find command options:  man ,   ex: man ls
+Memory:
+Nproc
+Free	
+Top
+Df
+
+
+Processers:
+Ps -ef – to find processers which are running 
+Ps -ef | grep “ amzon”
+grep :  to find something
+Pipe: it is used to send output to second command from first comman
+awk: column based filtering :    -F :  ‘ {print $1}’  <filename)
+
+Set commands:
+Set -x   # debug mode
+Set  - e  # exit the script when there is an error
+Set  -o  pipe fail   #  exit the script when pipe fail issues
+Permissions:
+CHMOD : grant permissions for files/directories
+
+					
+ 
+
+
+
+
+
+
+
+4:  for read,  3 : for write , 1 : for execute   permissions
+Chmod 777 <file name> -- it gives all permissions
+
+Directories
+PWD: present working directory 
+mkdir  <directory name> : to create directory 
+cd :  change directory 
+cp -r  <source directory > <target directory>  : to copy content from one directory to another directory 
+rm/rm -r/rm -rf : to remove directories   
+
+curl :  it is used to browse the url content and download the files 
+           curl -L  <url name>  curl  -O , curl -o
+logfile where all the info will be there after script run.
+POSTMAN helps you to make a api request
+
+Wget:
+Wget used to download the url content into dummy file.
+
+find  <loation-name> <search -criteria> : it is used to find the file
+                 find  /  -name passwd   ,  find / -name *passwd*
+
+sudo su -    : it will switch the user to root
+
+if statement:
+  if [expression]
+  then 
+       statements
+  else
+       statements
+  fi
+
+
+
+
+Integers can be compared with these operators:
+-eq # Equal
+-ne # Not equal
+-lt # Less than
+-le # Less than or equal
+-gt # Greater than
+-ge # Greater than or equal
+
+For loop:
+
+for i in {2..10}
+
+do
+    echo "output: $i"
+done
+
+signals and trap
+
+trap will trap the signals 
+
+ex: trap “echo don’t use the ctrl+c” SIGINT
+
+
+Memory:
+
+Free 
+nproc 
+df – h 
+top
+
+
+
+
+
+
+
+
+
+
+
+
+Sheell script:
+Step1 : if you want to right shell script you need a file 
+Step2 : Create a file with extension with .sh , ex: satheesh.sh 
+Step3: first syntax for any shell scripting is  shebang (#!/)
+              #!/bin/bash
+                          /dash
+                          /sh
+                          /ksh
+Bash,dash,sh,ksh are executables
+#!/bin/bash  and #!/bin/sh  both are same in couple of years back since even if we use #!/bin/sh  in back end it will direct to default shebang is #!/bin/bash  by using soft link 
+But now they are different since some linux vendors are made default she bang as #!/bin/dash
+
+sh <filename.sh>  or  ./ <filename.sh>   --- to execute a script file 
+before executing we need to give permissions to files
+
+What is the purpose of shell script in devops?
+
+
+
+
+
+
+Infra maintenance 	      code maintenance		configuration maintenance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
