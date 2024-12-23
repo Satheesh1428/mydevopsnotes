@@ -3,6 +3,7 @@ Man is a command manual which give you purpose of command
 For ex: man  ls  , it will give you details about ls 
 
 # is used for comment
+date command to get todays date
 
 Listing folders/files:
 ======================
@@ -106,20 +107,8 @@ trap will trap the signals
 
 ex: trap “echo don’t use the ctrl+c” SIGINT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Sheell script:
+==================
 Step1 : if you want to right shell script you need a file 
 Step2 : Create a file with extension with .sh , ex: satheesh.sh 
 Step3: first syntax for any shell scripting is  shebang (#!/)
