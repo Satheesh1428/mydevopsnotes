@@ -40,7 +40,7 @@ Ps -ef – to find processers which are running
 Ps -ef | grep “ amzon”
 grep :  to find something
 Pipe: it is used to send output to second command from first comman
-awk: column based filtering :    -F :  ‘ {print $1}’  <filename)
+awk: column based filtering :    -F :  ‘ {print $1}’  <filename) 
 
 Set commands:
 ==============
@@ -101,7 +101,8 @@ do
     echo "output: $i"
 done
 
-signals and trap
+signals and trap:
+====================
 
 trap will trap the signals 
 
@@ -125,12 +126,10 @@ before executing we need to give permissions to files
 
 What is the purpose of shell script in devops?
 
-
-
-
-
-
 Infra maintenance 	      code maintenance		configuration maintenance
+
+How to analyse errors?
+use curl with location of logfile 
 
 
 
