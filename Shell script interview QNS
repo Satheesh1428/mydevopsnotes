@@ -3,3 +3,14 @@ write a simple shell script to list all the processers ?
 Write a script to print only error from a remote log?
 Ans: Curl, pipe and grep command
 write a shell script to print number which are devided by 3&5 and not 15?
+Write a script to pring number of 'S' on 'mississippi'
+how will you debug the shell script?
+What is crontab in linux? Can you provide one example of usage?
+How to open a file in read only file?  
+    vim -r satheesh.sh
+What is the difference between soft and hard link?
+What is the differenece b/w break and continue statement ?
+What are the disadvantages of Shell scripting?
+Types of loops in Shell script?
+Is Bash dynamically or statically typed?
+Explain about networking trouble shooting utility?  trace root 
