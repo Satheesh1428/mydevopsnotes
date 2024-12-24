@@ -91,6 +91,7 @@ Integers can be compared with these operators:
 -le # Less than or equal
 -gt # Greater than
 -ge # Greater than or equal
+|| ---or condition
 
 For loop:
 ==============
