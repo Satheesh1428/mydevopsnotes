@@ -13,4 +13,6 @@ What is the differenece b/w break and continue statement ?
 What are the disadvantages of Shell scripting?
 Types of loops in Shell script?
 Is Bash dynamically or statically typed?
-Explain about networking trouble shooting utility?  trace root 
+Explain about networking trouble shooting utility?  trace root ,tracepath
+How will you sort list of names in file ?
+how will you manage logs of system that generate huge log files every day ?
