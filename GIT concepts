@@ -1,3 +1,37 @@
-GIT concepts:
+GIT concepts and inter view qustions:
 =================
-Branching strategy
+How git will support sharing and versioning code?
+Centarlized vs distributed version control and how git resolve it ?
+What is fork , what is the use of it ?
+What is .GIT 
+           .git folder by using this GIT will track all the chnages happening in repository 
+           $ ls .git
+           COMMIT_EDITMSG  HEAD  config  description  hooks/  index  info/  logs/  objects/  refs/
+
+
+
+
+
+git commands:
+=================
+1) git init: it will intialize the git repository 
+
+2) git status
+   On branch master
+   Untracked files:
+   (use "git add <file>..." to include in what will be committed)
+        shellscript-projects/
+
+    nothing added to commit but untracked files present (use "git add" to track)
+
+3)git diff
+
+4) git add -----git commit-----git push 
+5) git add filename
+6) git commit -m " enter commit message you want"
+7) git push it will push the code to distributed system(ex github).
+   git push
+8) git log
+9) git reset  --hard commitid 
+10 git clone 
+ 
