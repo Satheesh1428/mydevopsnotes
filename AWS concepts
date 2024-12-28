@@ -1,16 +1,24 @@
 AWS Concepts:
 ======================
-AWS
-EKS
+EC2
+VPC
+EBS
+S3
+IAM
+Cloud watch
 LAMDA
+CLOUD BUILD
+AWS configuration 
+billing & costing
+AWS KMS
+cloud trail
+AWS EKS
+FORGATE,ECS
+ELK
+============
 HELM
 FLUX
-S3
-VPC
 ROUTE53
 RDS
-EC2
 Load balancer
-Cloud watch
 Cloudfront
-IAM
