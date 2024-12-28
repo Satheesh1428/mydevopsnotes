@@ -75,6 +75,18 @@ find  <loation-name> <search -criteria> : it is used to find the file
 
 sudo su -    : it will switch the user to root
 
+npm: Node Package Manager
+     The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js.
+     All npm packages are defined in files called package.json.
+     The content of package.json must be written in JSON.
+     At least two fields must be present in the definition file: name and version.
+     npm can manage dependencies.
+     npm can (in one command line) install all the dependencies of a project.
+     Dependencies are also defined in package.json.
+
+
+set -hostname bharat
+
 if statement:
 ==============
   if [expression]
