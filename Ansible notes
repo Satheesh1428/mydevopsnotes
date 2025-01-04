@@ -39,15 +39,22 @@ Step3:
 Making password less autentication between Ansible-server EC2 and target server EC2.
 Login into Ansible-server EC2 and execute ssh-keygen 
 public key is now created at location /home/ubuntu/.ssh/
-         ubuntu@ip-172-31-18-42:~$ ls /home/ubuntu/.ssh/
+         $ ls /home/ubuntu/.ssh/
          authorized_keys  id_ed25519  id_ed25519.pub  known_hosts
 Take below key 
-ubuntu@ip-172-31-18-42:~$ cat /home/ubuntu/.ssh/id_ed25519.pub
+$ cat /home/ubuntu/.ssh/id_ed25519.pub
 
 Login into target server EC2 now  and execute ssh-keygen 
 ubuntu@ip-172-31-27-31:~$ ls ~/.ssh/
-authorized_keys  id_ed25519  id_ed25519.pub
-ubuntu@ip-172-31-27-31:~$ vim ~/.ssh/authorized_keys
+authorized_keys  pqr  pqr.pub
+$ vim ~/.ssh/authorized_keys
+copy publick key which is taken from $ cat /home/ubuntu/.ssh/id_ed25519.pub on Ansible-server EC2
+in vim ~/.ssh/authorized_keys of target server EC2
+
+try to connect target server EC2 from Ansible-server EC2 by using private ip address of target server EC2
+ssh private ip of target server EC2
+
+
 
 
 
