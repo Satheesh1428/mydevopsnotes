@@ -1,2 +1,28 @@
 Ansible is configuration management tool 
+Topics:
+password less autenticator + ineventory file 
+Agentless architecture 
+push mechnaisam 
+dynamic inventery file 
+ansible galaxy
+it will support both windows(win RM) and Linux(SSH)
+YAML language we use in ANSIBLE to write the ansible playbooks
+ANSIBLE is written in python 
 
+
+Interview qustions:
+Ansible uses which language
+Ansible support which servers
+Ansible vs puppet vs chef
+Ansible mechnisam?
+Which language we use to write ansible playbooks?
+ansible adhoc commands vs ansible playbook?
+
+
+Ansible practical:
+====================
+sudo apt update 
+sudo apt install ansible
+ansible --version
+   password less autenticator process
+    ssh-keygen 
