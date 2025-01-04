@@ -54,6 +54,10 @@ in vim ~/.ssh/authorized_keys of target server EC2
 try to connect target server EC2 from Ansible-server EC2 by using private ip address of target server EC2
 ssh private ip of target server EC2
 
+Ansible adoch commands:
+=======================
+ansible -i inventory all -m "shell"  -a "touch sample"
+
 
 
 
