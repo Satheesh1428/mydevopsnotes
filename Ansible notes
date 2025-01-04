@@ -58,6 +58,16 @@ Ansible adoch commands:
 =======================
 ansible -i inventory all -m "shell"  -a "touch sample"
 
+Playbook execution command:
+==============================
+ansible-playbook -i inventory nginx.yml
+
+debug ansible:
+================
+ansible-playbook -vvv -i inventory nginx.yml
+
+
+
 
 
 
