@@ -3,3 +3,4 @@ Concepts:
 Containers
 docker file  -- execute it(docker build)- it create image -- execute it(docker run) -- it creats container
 builda
+Signle point of failure is focker engine, if docker engine is down all containers will stop working , (builda will resolve this )
