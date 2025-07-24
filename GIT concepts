@@ -13,6 +13,9 @@ Git object types:
 3) Commit -- stores different versions
 4) Annotated tag : stores pomiter of commits
 
+Hash functions: MD5(128 bit) , SHA1(160 bit/40 hexa decimal characters), SHA256(256 bit), SHA384(384 bit), SHA512(512 BIT)
+                GIT uses SHA1 hash funcation
+
 Git low level commands:
 =======================
 1) git hash-objects  -- to create new blob objects
