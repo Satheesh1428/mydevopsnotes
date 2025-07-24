@@ -4,8 +4,8 @@ How git will support sharing and versioning code?
 Centarlized vs distributed version control and how git resolve it ?
 What is fork , what is the use of it ?
 What is .GIT 
-           .git folder by using this GIT will track all the chnages happening in repository 
-           $ ls .git
+           .git folder by using this GIT will track all the chnaes happening in repository 
+           $ ls .gitv
            COMMIT_EDITMSG  HEAD  config  description  hooks/  index  info/  logs/  objects/  refs/
 Git object types:
 1) blob -- stores Any files 
