@@ -7,6 +7,18 @@ What is .GIT
            .git folder by using this GIT will track all the chnages happening in repository 
            $ ls .git
            COMMIT_EDITMSG  HEAD  config  description  hooks/  index  info/  logs/  objects/  refs/
+Git object types:
+1) blob -- stores Any files 
+2) Tree -- Stores directory
+3) Commit -- stores different versions
+4) Annotated tag : stores pomiter of commits
+
+Git low level commands:
+=======================
+1) git hash-objects  -- to create new blob objects
+2) git cat -file     -- to read git objects
+3) git mktree        -- to create new tree object
+
 
 
 
@@ -14,7 +26,8 @@ What is .GIT
 
 git commands:
 =================
-1) git init: it will intialize the git repository 
+1) git init: it will intialize the git repository , it will create .git folder autimatcically , to open .git folder in windows 
+   we use "strat ." / "explorer ." 
 
 2) git status
    On branch master
