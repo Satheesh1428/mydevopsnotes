@@ -73,6 +73,8 @@ Wget used to download the url content into dummy file.
 find  <loation-name> <search -criteria> : it is used to find the file
                  find  /  -name passwd   ,  find / -name *passwd*
 
+sudo commands:
+sudo apt update -y  : it will update apt repos
 sudo su -    : it will switch the user to root
 
 npm: Node Package Manager
